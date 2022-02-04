@@ -1,0 +1,49 @@
+@media (prefers-reduced-motion: no-preference) {
+	html {
+		scroll-behavior: smooth;
+	}
+}
+
+.Navbar {
+	display: flex;
+	height: 70px;
+	min-width: 100%;
+	box-shadow: 5px 2px 12px #4f0e52;
+	position: fixed;
+	top: 0;
+}
+
+.logoimg {
+	height: 55px;
+	margin-left: 30px;
+	margin-top: 12px;
+	margin-bottom: 4px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.navdetails {
+	min-width: 40%;
+	margin-right: 2px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.linktag {
+	text-decoration: none;
+}
+
+.htag {
+	color: black;
+	font-size: 24px;
+	font-weight: bold;
+	margin-left: 10px;
+	text-decoration: none;
+}
+
+.htag:hover {
+	color: #24485a;
+	transform: scale(1.09);
+}

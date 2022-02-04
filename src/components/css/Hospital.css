@@ -1,0 +1,18 @@
+.hsptl {
+	margin-top: 70px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 27px;
+}
+
+.hsptlImg {
+	max-width: 400px;
+	max-height: auto;
+}
+
+.description {
+	margin-left: 5%;
+	margin-right: 13%;
+	font-size: 18px;
+	font-weight: lighter;
+}
