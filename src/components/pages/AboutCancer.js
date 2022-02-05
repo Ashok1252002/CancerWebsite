@@ -4,7 +4,7 @@ import "../css/AboutCancer.css";
 const AboutCancer = () => {
 	return (
 		<div>
-			<div className="container">
+			<div className="container1">
 				<div className="description">
 					<h1>
 						What is <span style={{ color: "red" }}>Cancer?</span>

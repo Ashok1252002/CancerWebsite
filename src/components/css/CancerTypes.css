@@ -1,0 +1,34 @@
+.container {
+	margin-top: 70px;
+	display: grid;
+	grid-template-columns: 20% 26% 22% 32%;
+	padding: 27px;
+	margin-left: 10px;
+	margin-right: 20px;
+	overflow-x: hidden;
+}
+
+.col-2 {
+	margin-top: 3px;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 7px;
+}
+
+.imageTag,
+iframe {
+	transition: transform 450ms;
+}
+
+.imageTag:hover {
+	transform: scale(1.3);
+}
+
+iframe:hover {
+	transform: scale(1.09);
+}
+
+.col-3 {
+	margin-top: 7px;
+	margin-left: 7px;
+}
